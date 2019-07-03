@@ -1,2 +1,10 @@
 package com.githookworkspace.rules;
 
+rule"GitHookRule1"
+when 
+eval(true)
+then 
+System.out.println("First rule");
+end
+
+
