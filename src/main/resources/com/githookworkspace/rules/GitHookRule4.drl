@@ -1,2 +1,9 @@
 package com.githookworkspace.rules;
 
+
+rule"GitHookRule4"
+when 
+eval(true)
+then 
+System.out.println("Forth rule");
+end
