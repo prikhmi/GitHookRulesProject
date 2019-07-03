@@ -1,2 +1,11 @@
 package com.githookworkspace.rules;
 
+
+rule"GitHookRule3"
+when 
+eval(true)
+then 
+System.out.println("Third rule");
+end
+
+
